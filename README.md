@@ -1,8 +1,8 @@
-# dev-bootcamp-s26
+# dev-bootcamp-f26
 
-## Spring 26 Dev Bootcamp Exercises
+## Fall 26 Dev Bootcamp Exercises
 
-This repository contains all the exercises and resources needed for the Spring 2026 Dev Bootcamp.
+This repository contains all the exercises and resources needed for the Fall 2026 Dev Bootcamp.
 
 ## Submitting Projects & Exercises
 
