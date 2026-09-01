@@ -6,7 +6,7 @@ In this exercise, you will install and set up all the necessary tools for web de
 
 ## Submission
 
-Collect points for this exercise by replying to the message about this exercise with your GitHub username in the `#gt-dev-bootcamp-s26` Slack channel.
+Collect points for this exercise by replying to the message about this exercise with your GitHub username in the `#gt-dev-bootcamp-f26` Slack channel.
 
 - **Due Date**: 2/3
 
@@ -42,7 +42,7 @@ A GitHub account will allow you to be added to the GitHub organization, so you c
 1. Go to <https://github.com> and **Sign up** to create an account or **Log in** if you already have one
 2. Create a username and password
 3. Verify an email
-4. Send a message in the `#gt-dev-bootcamp-s26` Slack channel with your GitHub username, and an instructor will add you to the organization
+4. Send a message in the `#gt-dev-bootcamp-f26` Slack channel with your GitHub username, and an instructor will add you to the organization
 5. Accept the invite to the GitHub Organization in your email
 
 ### 3. Install Node
