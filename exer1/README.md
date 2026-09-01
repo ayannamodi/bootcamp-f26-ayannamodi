@@ -8,7 +8,7 @@ In this exercise, you will install and set up all the necessary tools for web de
 
 Collect points for this exercise by replying to the message about this exercise with your GitHub username in the `#gt-dev-bootcamp-f26` Slack channel.
 
-- **Due Date**: 2/3
+- **Due Date**: 9/8
 
 ## Instructions
 
