@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ayanna | Bits of Good Dev Bootcamp</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <main class="card-container">
+        <div class="profile-card">
+            <div class="card-header">
+                <div class="avatar-ring">
+                    <span class="avatar-text">AM</span>
+                </div>
+                <h1>Ayanna</h1>
+                <p class="subtitle">CS @ Georgia Tech • Class of '28</p>
+            </div>
+
+            <div class="card-body">
+                <div class="info-pill">
+                    <span class="pill-label">Major:</span>
+                    <span class="pill-value">Computer Science</span>
+                </div>
+                <div class="info-pill">
+                    <span class="pill-label">Year:</span>
+                    <span class="pill-value">Undergraduate</span>
+                </div>
+                <div class="info-pill">
+                    <span class="pill-label">Focus:</span>
+                    <span class="pill-value">Accessible Tech & Social Impact</span>
+                </div>
+
+                <div class="passions-section">
+                    <h3>Social Good Passion</h3>
+                    <p id="passion-text">
+                        Building inclusive, barrier-free digital tools for neurodiverse learners and empowering local communities through tech-driven equity.
+                    </p>
+                </div>
+
+                <div class="button-group">
+                    <button class="btn btn-primary" onclick="toggleImpact()">💡 Explore Projects</button>
+                    <button class="btn btn-secondary" onclick="triggerConfetti()">✨ Say Hello</button>
+                </div>
+
+                <div id="interactive-box" class="hidden-box">
+                    <p>🌟 <strong>Current Initiative:</strong> Building accessible mental health & education platforms to reduce cognitive friction.</p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script>
+        function toggleImpact() {
+            const box = document.getElementById('interactive-box');
+            box.classList.toggle('visible');
+        }
+
+        function triggerConfetti() {
+            alert("Thanks for checking out my card! Looking forward to Bits of Good!");
+        }
+    </script>
+</body>
+</html>

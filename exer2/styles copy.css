@@ -1,0 +1,182 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, #003057 0%, #00508b 50%, #eaaa00 100%);
+    padding: 20px;
+}
+
+.card-container {
+    perspective: 1000px;
+    animation: fadeIn 0.8s ease-out;
+}
+
+.profile-card {
+    background: #ffffff;
+    width: 360px;
+    max-width: 100%;
+    border-radius: 20px;
+    padding: 30px 24px;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.profile-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.25);
+}
+
+.avatar-ring {
+    width: 80px;
+    height: 80px;
+    margin: 0 auto 15px;
+    border-radius: 50%;
+    background: linear-gradient(135deg, #003057, #eaaa00);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+.avatar-text {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+.card-header h1 {
+    font-size: 1.6rem;
+    color: #003057;
+    margin-bottom: 4px;
+}
+
+.subtitle {
+    font-size: 0.85rem;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.info-pill {
+    display: flex;
+    justify-content: space-between;
+    background: #f4f6f9;
+    padding: 8px 14px;
+    border-radius: 10px;
+    font-size: 0.85rem;
+}
+
+.pill-label {
+    font-weight: 600;
+    color: #003057;
+}
+
+.pill-value {
+    color: #444;
+}
+
+.passions-section {
+    background: #fbfbfd;
+    border-left: 4px solid #eaaa00;
+    padding: 10px 12px;
+    border-radius: 6px;
+    text-align: left;
+    margin-top: 6px;
+}
+
+.passions-section h3 {
+    font-size: 0.85rem;
+    color: #003057;
+    margin-bottom: 4px;
+}
+
+.passions-section p {
+    font-size: 0.8rem;
+    color: #555;
+    line-height: 1.4;
+}
+
+.button-group {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.btn {
+    flex: 1;
+    padding: 10px 0;
+    border: none;
+    border-radius: 8px;
+    font-size: 0.85rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.btn-primary {
+    background: #003057;
+    color: #ffffff;
+}
+
+.btn-primary:hover {
+    background: #002240;
+}
+
+.btn-secondary {
+    background: #eaaa00;
+    color: #003057;
+}
+
+.btn-secondary:hover {
+    background: #d49800;
+}
+
+.hidden-box {
+    display: none;
+    background: #eef5fc;
+    border-radius: 8px;
+    padding: 10px;
+    font-size: 0.8rem;
+    color: #003057;
+    animation: slideDown 0.3s ease-in-out;
+}
+
+.hidden-box.visible {
+    display: block;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(15px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes slideDown {
+    from {
+        opacity: 0;
+        transform: translateY(-5px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
