@@ -84,7 +84,7 @@ const words = string.split(" ");
     } 
  */
 function combineObjects(object1, object2) {
-  // TODO
+  return { ...object1, ...object2 };
 }
 
 /**
