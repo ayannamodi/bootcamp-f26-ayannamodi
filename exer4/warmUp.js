@@ -39,7 +39,7 @@ function toLetterGrade(numGrade) {
  * Example: [9, 3, 4, 1, 2, 0] --> [4, 2, 0]
  */
 function getEvenElements(array) {
-  // TODO
+  return array.filter((num) => num % 2 === 0);
 }
 
 /**
