@@ -52,7 +52,14 @@ function getEvenElements(array) {
  * Example: "I love Bits of Good" --> 4
  */
 function findLongestWord(string) {
-  // TODO
+const words = string.split(" ");
+  let maxLength = 0;
+  for (const word of words) {
+    if (word.length > maxLength) {
+      maxLength = word.length;
+    }
+  }
+  return maxLength;
 }
 
 /**
